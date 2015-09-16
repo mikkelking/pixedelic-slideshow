@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('0.9.0');
   api.use('jquery', 'client');
 // Camera files
-  api.addFiles('lib/camera.min.js','client');
+  api.addFiles('lib/camera.js','client');
   api.addFiles('lib/jquery.easing.1.3.js','client');
 // This one is not mandatory if only on desktop
   api.addFiles('lib/jquery.mobile.customized.min.js','client');
