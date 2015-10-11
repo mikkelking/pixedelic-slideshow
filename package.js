@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mikkelking:pixedelic-slideshow',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Meteor package to wrap pixedelic/Camera',
   // URL to the Git repository containing the source code for this package.
@@ -20,9 +20,9 @@ Package.onUse(function(api) {
   api.addFiles('lib/jquery.mobile.customized.min.js','client');
 // CSS and images files
   api.addFiles('lib/camera.css','client');
-  api.addFiles('images/camera-loader.gif','client');
-  api.addFiles('images/camera_skins.png','client');
-  api.addFiles('images/blank.gif','client');
+  api.addAssets('images/camera-loader.gif','client');
+  api.addAssets('images/camera_skins.png','client');
+  api.addAssets('images/blank.gif','client');
 // The wrapper itself
   api.addFiles('pixedelic-slideshow.js');
 });
