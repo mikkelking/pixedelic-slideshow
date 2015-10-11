@@ -31,6 +31,6 @@ Package.onTest(function(api) {
   api.use('tinytest');
   api.use('jquery');
   api.use('mikkelking:pixedelic-slideshow');
-  api.addFiles('test.html','client');
+  api.addAssets('test.html','client');
   api.addFiles('tests.js');
 }); 
